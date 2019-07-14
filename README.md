@@ -180,7 +180,7 @@ List of presentations, podcasts, channels, etc. related to Raiden Network
 - [Messari Raiden Network profile report](https://messari.io/asset/raiden-network#profile)
 - [Community built FAQ on Reddit](https://www.reddit.com/r/raidennetwork/comments/7hhkv5/work_in_progress_raiden_network_and_token_faq/)
 - [Raiden PFS in action!](https://twitter.com/mat77ias/status/1148921006863466497)
-- [RaidenInfoBot Telegram bot](https://t.me/RaidenInfoBot) with a collection of resources about Raiden Network (and some misc. features). Currently running in https://t.me/RaidenNetworkCommunity (unofficial)
+- [RaidenInfoBot](https://t.me/RaidenInfoBot) Telegram bot ()[Github](https://github.com/mat7ias/RaidenResourcesBot/)) with a collection of resources about Raiden Network (and some misc. features). Currently running in https://t.me/RaidenNetworkCommunity (unofficial)
 
 ### Community Channels
 
@@ -220,6 +220,3 @@ Resources indirectly related to Raiden Network
 - [AppStoreFoundation](https://hackernoon.com/anu-2-app-store-foundation-and-dev-status-a3de6d144e5f), [Github](https://github.com/AppStoreFoundation/asf-sdk) - sell in-app items for AppCoins
 - [SmartMesh/SmartRaiden](https://smartmesh.io/) - internet-free digital payments and transactions
 - [RightMesh](https://www.rightmesh.io/) - ad hoc mobile mesh networking platform and protocol
-
-## ⚡ RaidenInfoBot
-A [Telegram bot](https://t.me/RaidenInfoBot) with a collection of resources about Raiden Network (and some misc. features). Currently running in https://t.me/RaidenNetworkCommunity (unofficial)
