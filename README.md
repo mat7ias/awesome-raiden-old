@@ -22,7 +22,6 @@
 - [⚡ MicroRaiden](#-microraiden)
   - [MicroTalks](#microtalks)
 - [⚡ Other Resources](#-other-resources)
-- [⚡ Raiden Information Bot](#-raideninfobot)
 
 # ⚡ Raiden Network
 
