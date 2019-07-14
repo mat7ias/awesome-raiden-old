@@ -126,10 +126,10 @@ Want to find some online Raiden nodes to connect to? Here's a few :)
 
 Resources for trying the WIP Raiden dApp in your browser. The Light Client works on Ropsten/Rinkeby/Goerli/Kovan, here we'll use Ropsten.
 1. Make sure you have MetaMask installed and connected to Ropsten Test Network
-![ropsten](assets/ropsten.png).
+![ropsten](https://user-images.githubusercontent.com/35585644/61182722-b5edeb00-a67a-11e9-9930-bfa4db704244.png).
 2. Get testnet Ether on [Ropsten](https://faucet.ropsten.be/) (going off-chain with Raiden requires on-chain interactions, i.e. Gas).
 3. Wrap Ether using the [0x Portal](https://0x.org/portal/weth). MetaMask might not show the correct wrapped Ether on testnet after you've wrapped it. If so, click on MetaMask and add Custom Token 0xc778417e063141139fce010982780140aa0cd5ab
-![addweth](assets/addweth.png)
+![addweth](https://user-images.githubusercontent.com/35585644/61182725-c43c0700-a67a-11e9-9ca5-19cb67341cf5.png)
 4. Start the Raiden dApp [here](http://lightclient.raiden.network). You can now use the dApp to open, close and settle channels.
 
 note: The dApp user interface is very early WIP<sup>[explained more here](https://t.me/RaidenNetworkCommunity/28310)</sup>, the first milestone will enable sending tokens and not receiving them. If you're interested to get the full experience of Raiden you will want to run a full Raiden node and use the WebUI to get a good experience.
