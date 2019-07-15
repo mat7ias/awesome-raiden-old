@@ -125,7 +125,8 @@ Need to try it quick on mainnet?! If you've never tried Raiden before you should
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
 - Now, view your project and you'll find the Project ID under the __KEYS__ section.
-- Start your node with ```
+- Start your node with
+```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --eth-rpc-endpoint eth-rpc-endpoint https://mainnet.infura.io/v3/__KEYS__
 ```
 For setting up a Raiden full node on a dedicated server, [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b) is great! It will take some extra time to setup and sync for the first time if you don't have DAppNode already.
