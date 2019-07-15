@@ -53,6 +53,7 @@
 - [Workshop](https://workshop.raiden.network)
 - [Raiden Workshop Configurator](https://workshops.raiden.network/) - host a Raiden workshop or meetup! 😃
 - [Releases List](https://github.com/raiden-network/raiden/releases) (+[nightly releases](https://raiden-nightlies.ams3.digitaloceanspaces.com/index.html))
+- 🏃Need multiple accounts/nodes, use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly?! They will be stored in `~/.ethereum/keystore/`. List them with `geth account list`.
 
 <sub><sup>Note: The following sections include WIP and demo projects.</sup></sub>
 
@@ -92,7 +93,7 @@
 
 ### Ether Faucets
 
-Need testnet Ether?!
+🏃Need testnet Ether?!
 - [Ropsten](https://faucet.ropsten.be/)
 - [Rinkeby](https://faucet.rinkeby.io/)
 - [Kovan](https://faucet.kovan.network/)
@@ -102,7 +103,7 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 
 #### ERC20 Faucets
 
-Need testnet ERC20 tokens?! Wrap ether on [0x protocol](https://0x.org/portal). Or try [bokkypoobah](https://github.com/bokkypoobah/WeenusTokenFaucet)'s ERC20 token faucet. For example, send a 0 value transaction from your account to the token contract addresses below on your preferred network and you'll get 1,000 XEENUS tokens:
+🏃Need testnet ERC20 tokens?! Wrap ether on [0x protocol](https://0x.org/portal). Or try [bokkypoobah](https://github.com/bokkypoobah/WeenusTokenFaucet)'s ERC20 token faucet. For example, send a 0 value transaction from your account to the token contract addresses below on your preferred network and you'll get 1,000 XEENUS tokens:
 - [Ropsten](https://ropsten.etherscan.io/address/0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5#code): 0x7E0480Ca9fD50EB7A3855Cf53c347A1b4d6A2FF5
 - [Rinkeby](https://rinkeby.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
 - [Kovan](https://kovan.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
@@ -110,7 +111,7 @@ Need testnet ERC20 tokens?! Wrap ether on [0x protocol](https://0x.org/portal). 
 
 ### Starting a Raiden Full Node
 
-To test a full Raiden node quick for the first time, 🏃 follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, [this community video](https://youtu.be/RpaAS64dI6k) shows starting a node with WSL (keep in mind that video is old and uses v0.100.1, you want v0.100.3, [if you get stuck](https://gitter.im/raiden-network/raiden)). You can skip signing up for Infura on Goerli by adding "--eth-rpc-endpoint https://rpc.slock.it/goerli". So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)):
+🏃To test a full Raiden node quick for the first time, follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, [this community video](https://youtu.be/RpaAS64dI6k) shows starting a node with WSL (keep in mind that video is old and uses v0.100.1, you want v0.100.3, [if you get stuck](https://gitter.im/raiden-network/raiden)). You can skip signing up for Infura on Goerli by adding "--eth-rpc-endpoint https://rpc.slock.it/goerli". So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)):
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
 ```
@@ -121,7 +122,7 @@ Want to find some online Raiden nodes to connect to? Here's a few :)
 - [Ropsten](https://ropsten.etherscan.io/address/0x5257964ef9b81fba7276af2a97c111aad7b840d6)
 - Goerli: [1](https://goerli.etherscan.io/address/0x34e140cf9b711F738f05E1BC9AFB8425083d03a5), [2](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [3](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [4](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [5](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->5 on the XEENUS token network, if you want to try multi-hop payments quickly)
 
-Need to try it quick on mainnet?! If you've never tried Raiden before you should try it on testnet first. If you're using Raiden Network for payments then you should run your own Ethereum node. Although for trying it out fast, Infura will work great! 🏃 For this you'll need to:
+🏃Need to try it quick on mainnet?! If you've never tried Raiden before you should try it on testnet first. If you're using Raiden Network for payments then you should run your own Ethereum node. Although for trying it out fast, Infura will work great! For this you'll need to:
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
 - Now, view your project and you'll find the Project ID under the __KEYS__ section.
