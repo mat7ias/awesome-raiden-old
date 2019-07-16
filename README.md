@@ -51,7 +51,6 @@
 ## ⚡ Developer Resources
 
 - [Workshop](https://workshop.raiden.network)
-- [Raiden Workshop Configurator](https://workshops.raiden.network/) - host a Raiden workshop or meetup! 😃
 - [Releases List](https://github.com/raiden-network/raiden/releases) (+[nightly releases](https://raiden-nightlies.ams3.digitaloceanspaces.com/index.html))
 - 🏃Need multiple accounts/nodes to test with?! Use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list`. You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. (e.g. `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001).
 
@@ -180,6 +179,7 @@ List of presentations, podcasts, channels, etc. related to Raiden Network
 - [Raiden Pulse #1:](https://medium.com/raiden-network/raiden-pulse-1-news-from-july-and-august-423fae4e9d3e) News from July and August
 
 ## ⚡ Community
+[Raiden Workshop Configurator](https://workshops.raiden.network/) - host a Raiden workshop or meetup! 😃
 
 - [Emerging Tech for Beginners: Convergence of Emerging Technologies with Brett Robertson of Ethereum](https://youtu.be/81_pz2J5zRs)
 - [Meeting Raiden @ Web3Summit](http://reddit.com/r/raidennetwork/comments/9red2i/meeting_raiden_web3summit/) and [Raiden: Ethereum's Payment Channel Network](https://medium.com/@surferfc/raiden-ethereums-payment-channel-network-acc6e5c709b0)
