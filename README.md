@@ -58,7 +58,7 @@
 
 ### Tools
 
-- [Raiden Burner](https://github.com/johngrantuk/raidenburner) ([demo](https://youtu.be/Pn0gsljGalo)) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
+- [Raiden Burner](https://github.com/johngrantuk/raidenburner), ([demo](https://youtu.be/Pn0gsljGalo)) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
 - [Grid Ethereum Plugin](https://github.com/PhilippLgh/ethereum-grid-tutorials/blob/cfb3b205374a34550e43cdbdbb4ec7e90a2d4bf4/Raiden.md) - the functionality with a plugin and a Web UI
 - [Raiden Ticker](https://github.com/pisuthd/raiden-ticker) - integrate Raiden's payment channel with IoT devices
 - [Docker Hub](https://hub.docker.com/r/raidennetwork/raiden) and Use Docker, Infura.io to [Build Raiden Network on Ubuntu 18.04](https://medium.com/@szhao_31738/use-docker-infura-io-to-build-raiden-network-on-ubuntu-18-04-a5eae7357f61) tutorial
@@ -114,14 +114,9 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
 ```
-Your node is now runningAnother option is to use Raiden with [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b)!
+Your node is now running on Goerli testnet. For mainnet, follow the [installation guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). Another option is to use Raiden with [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b)! It will take some extra time to setup and sync for the first time if you don't have an Eth Node synced already.
 
-Want to find some online Raiden nodes to connect to? Here's a few :)
-- [Mainnet](https://etherscan.io/address/0x865b332B0B058C472Ee3B46C5a66b8D1699740E1)
-- [Ropsten](https://ropsten.etherscan.io/address/0x5257964ef9b81fba7276af2a97c111aad7b840d6)
-- Goerli: [1](https://goerli.etherscan.io/address/0x34e140cf9b711F738f05E1BC9AFB8425083d03a5), [2](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [3](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [4](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [5](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->5 on the XEENUS token network, if you want to try multi-hop payments quickly)
-
-🏃Need to try it quick on mainnet?! If you've never tried Raiden before you should try it on testnet first. If you're using Raiden Network for payments then you should run your own Ethereum node. Although for trying it out fast, Infura will work great! For this you'll need to:
+🏃Need to try Raiden quick on mainnet?! If you've already done the workshop steps, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
 - Now, view your project and you'll find the Project ID under the __KEYS__ section.
@@ -129,7 +124,11 @@ Want to find some online Raiden nodes to connect to? Here's a few :)
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --eth-rpc-endpoint eth-rpc-endpoint https://mainnet.infura.io/v3/<MAINNET_INFURA_KEY>
 ```
-For setting up a Raiden full node on a dedicated server, [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b) is great! It will take some extra time to setup and sync for the first time if you don't have DAppNode already.
+
+Want to find some online Raiden nodes to connect to? Here's a few :)
+- [Mainnet](https://etherscan.io/address/0x865b332B0B058C472Ee3B46C5a66b8D1699740E1)
+- [Ropsten](https://ropsten.etherscan.io/address/0x5257964ef9b81fba7276af2a97c111aad7b840d6)
+- Goerli: [1](https://goerli.etherscan.io/address/0x34e140cf9b711F738f05E1BC9AFB8425083d03a5), [2](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [3](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [4](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [5](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->5 on the XEENUS token network, if you want to try multi-hop payments quickly)
 
 ### dApp Testing
 
