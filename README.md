@@ -53,7 +53,7 @@
 - [Workshop](https://workshop.raiden.network)
 - [Raiden Workshop Configurator](https://workshops.raiden.network/) - host a Raiden workshop or meetup! 😃
 - [Releases List](https://github.com/raiden-network/raiden/releases) (+[nightly releases](https://raiden-nightlies.ams3.digitaloceanspaces.com/index.html))
-- 🏃Need multiple accounts/nodes?! Use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list`. You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. (e.g. `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001).
+- 🏃Need multiple accounts/nodes to test with?! Use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list`. You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. (e.g. `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001).
 
 <sub><sup>Note: The following sections include WIP and demo projects.</sup></sub>
 
