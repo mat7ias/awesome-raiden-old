@@ -110,13 +110,15 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 
 ### Starting a Raiden Full Node
 
-🏃Need to start a Raiden node?! To test a full Raiden node quick for the first time, follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, [this community video](https://youtu.be/RpaAS64dI6k) shows starting a node with WSL (keep in mind that video is old and uses v0.100.1, you want v0.100.3, [if you get stuck](https://gitter.im/raiden-network/raiden)). You can skip signing up for Infura on Goerli by adding "--eth-rpc-endpoint https://rpc.slock.it/goerli". So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)):
+For mainnet, follow the [installation guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). Another option is to use Raiden with [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b)! It will take some extra time to setup and sync for the first time if you don't have an Eth Node synced already.
+
+🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the steps for WSL ([if you get stuck](https://gitter.im/raiden-network/raiden)). You can skip signing up for Infura on Goerli by adding "--eth-rpc-endpoint https://rpc.slock.it/goerli". So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) to:
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
 ```
-Your node is now running on Goerli testnet. For mainnet, follow the [installation guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). Another option is to use Raiden with [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b)! It will take some extra time to setup and sync for the first time if you don't have an Eth Node synced already.
+Your node is now running on Goerli testnet. Open your web browser and put `127.0.0.1:5001` to open the WebUI.
 
-🏃Need to try Raiden quick on mainnet?! If you've already done the workshop steps, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
+🏃Need to try Raiden quick on mainnet?! If you've already completed the workshop steps, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
 - Now, view your project and you'll find the Project ID under the __KEYS__ section.
