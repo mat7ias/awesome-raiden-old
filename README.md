@@ -7,7 +7,7 @@
   - [Explorers](#explorers)
 - [⚡ Developer Resources](#-developer-resources)
   - [Tools](#tools)
-  - [RNapps](#rapps)
+  - [RApps](#rapps)
   - [Ether Faucets](#ether-faucets)
     - [ERC20 Faucets](#erc20-faucets)
   - [Starting a Raiden Full Node](#starting-a-raiden-full-node)
@@ -75,7 +75,7 @@
 - [Go Raiden Client](https://github.com/cpurta/go-raiden-client) - A Raiden node client written in Go
 - [PyRaiden](https://github.com/nanspro/PyRaiden) - A client library to interact with Raiden Network written in python
 
-### Rapps
+### RApps
 
 - [Fairspot](https://github.com/ilinzweilin/ethCapeTown) - WiFi internet access on the go (in 100kb chunks) using Raiden
 - [NUtube](https://nutube.network/#/), [Github](https://github.com/CryptoManiacsZone/nuTube.network), [demo](https://www.youtube.com/watch?v=Tx-j0TubY7k) - decentralized P2P live streaming w/ micropayments
