@@ -11,6 +11,7 @@
   - [Ether Faucets](#ether-faucets)
     - [ERC20 Faucets](#erc20-faucets)
   - [Starting a Raiden Full Node](#starting-a-raiden-full-node)
+  - [Connectivity](#connectivity)
   - [dApp Testing](#dapp-testing)
 - [⚡ Learning Resources](#-learning-resources)
   - [Talks](#talks)
@@ -50,9 +51,8 @@
 
 ## ⚡ Developer Resources
 
-- [Workshop](https://workshop.raiden.network)
+- [System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html) or another quick first time option with the [Raiden Workshop](#starting-a-raiden-full-node).
 - [Releases List](https://github.com/raiden-network/raiden/releases) (+[nightly releases](https://raiden-nightlies.ams3.digitaloceanspaces.com/index.html))
-- 🏃Need multiple accounts to test with?! use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list` (alternatively, rerun the [Workshop onboarder](https://github.com/raiden-network/workshop/#on-boarding)). You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. For example `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001.
 
 <sub><sup>Note: The following sections include WIP and demo projects.</sup></sub>
 
@@ -110,8 +110,6 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 
 ### Starting a Raiden Full Node
 
-For mainnet, follow the [installation guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). Another option is to use Raiden with [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b)! It will take some extra time to setup and sync for the first time if you don't have an Eth Node synced already.
-
 🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the steps for WSL ([if you get stuck](https://gitter.im/raiden-network/raiden)). You can skip signing up for Infura on Goerli by adding "--eth-rpc-endpoint https://rpc.slock.it/goerli". So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) to:
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
@@ -127,10 +125,16 @@ Your node is now running on Goerli testnet. Open your web browser and put `127.0
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --eth-rpc-endpoint eth-rpc-endpoint https://mainnet.infura.io/v3/<MAINNET_INFURA_KEY>
 ```
 
-Want to find some online Raiden nodes to connect to? Here's a few :)
-- [Mainnet](https://etherscan.io/address/0x865b332B0B058C472Ee3B46C5a66b8D1699740E1)
-- [Ropsten](https://ropsten.etherscan.io/address/0x5257964ef9b81fba7276af2a97c111aad7b840d6)
-- Goerli: [1](https://goerli.etherscan.io/address/0x34e140cf9b711F738f05E1BC9AFB8425083d03a5), [2](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [3](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [4](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [5](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->5 on the XEENUS token network, if you want to try multi-hop payments quickly)
+A great permanent mainnet option is to use Raiden with [DAppNode](https://medium.com/raiden-network/run-raiden-on-dappnode-a45a1f63609b)! It will take some extra time to setup and sync for the first time if you don't have an Eth Node synced already.
+
+### Connectivity
+
+- 🏃Need multiple accounts to test with?! use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list` (alternatively, rerun the [Workshop onboarder](https://github.com/raiden-network/workshop/#on-boarding)). You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. For example `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001.
+
+- Want to find some Raiden nodes online already to connect to? Here's a few :)
+  - [Mainnet](https://etherscan.io/address/0x865b332B0B058C472Ee3B46C5a66b8D1699740E1)
+  - [Ropsten](https://ropsten.etherscan.io/address/0x5257964ef9b81fba7276af2a97c111aad7b840d6)
+  - Goerli: [1](https://goerli.etherscan.io/address/0x34e140cf9b711F738f05E1BC9AFB8425083d03a5), [2](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [3](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [4](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [5](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->5 on the XEENUS token network, if you want to try multi-hop payments quickly)
 
 ### dApp Testing
 
