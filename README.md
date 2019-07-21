@@ -51,7 +51,7 @@
 
 ## ⚡ Developer Resources
 
-- [System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html) or another quick first time option with the [Raiden Workshop](#starting-a-raiden-full-node).
+- [System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html), or a quick first time option with the [Raiden Workshop](#starting-a-raiden-full-node)🏃
 - [Releases List](https://github.com/raiden-network/raiden/releases) (+[nightly releases](https://raiden-nightlies.ams3.digitaloceanspaces.com/index.html))
 
 <sub><sup>Note: The following sections include WIP and demo projects.</sup></sub>
@@ -74,6 +74,7 @@
 - [Raiden Invoice](https://github.com/ChaeByunghoon/raiden-invoice) and [Invoice Server](https://github.com/ChaeByunghoon/raiden-invoice-server) - A library for encoding and decoding Raiden network payment requests
 - [Go Raiden Client](https://github.com/cpurta/go-raiden-client) - A Raiden node client written in Go
 - [PyRaiden](https://github.com/nanspro/PyRaiden) - A client library to interact with Raiden Network written in python
+- [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes.
 
 ### RApps
 
@@ -110,7 +111,7 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 
 ### Starting a Raiden Full Node
 
-🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the steps for WSL ([if you get stuck](https://gitter.im/raiden-network/raiden)). You can skip signing up for Infura on Goerli by adding "--eth-rpc-endpoint https://rpc.slock.it/goerli". So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) to:
+🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the added steps with using WSL ([if you get stuck](https://t.me/RaidenNetworkCommunity)). You can skip signing up for Infura on Goerli by adding `--eth-rpc-endpoint https://rpc.slock.it/goerli`. So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) to:
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
 ```
@@ -168,7 +169,6 @@ List of presentations, podcasts, channels, etc. related to Raiden Network
 - [Asseth 2019 - Paris](https://youtu.be/pN2jEgH1Nbs)
 - Send "/videos" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for 20+ more videos!
 
-
 ### Research Calls
 
 - [Layer 2 Community Call #1: Routing in state channel networks](https://youtu.be/SUxe_WJw5Yw)
@@ -184,6 +184,7 @@ List of presentations, podcasts, channels, etc. related to Raiden Network
 - [Raiden Pulse #1:](https://medium.com/raiden-network/raiden-pulse-1-news-from-july-and-august-423fae4e9d3e) News from July and August
 
 ## ⚡ Community
+
 [Raiden Workshop Configurator](https://workshops.raiden.network/) - host a Raiden workshop or meetup! 😃
 
 - [Emerging Tech for Beginners: Convergence of Emerging Technologies with Brett Robertson of Ethereum](https://youtu.be/81_pz2J5zRs)
