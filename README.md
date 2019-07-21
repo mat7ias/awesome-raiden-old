@@ -168,6 +168,7 @@ List of presentations, podcasts, channels, etc. related to Raiden Network
 - [Beyond Blockchain Hackathon: Raiden](https://youtu.be/wdz8M3RXJQs)
 - [Asseth 2019 - Paris](https://youtu.be/pN2jEgH1Nbs)
 - Send "/videos" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for 20+ more videos!
+- Send "/events" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for upcoming community events!
 
 ### Research Calls
 
