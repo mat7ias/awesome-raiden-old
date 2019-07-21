@@ -111,7 +111,7 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 
 ### Starting a Raiden Full Node
 
-🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the added steps with using WSL ([if you get stuck](https://t.me/RaidenNetworkCommunity)). You can skip signing up for Infura on Goerli by adding `--eth-rpc-endpoint https://rpc.slock.it/goerli`. So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) to:
+🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the added steps with using WSL ([if you get stuck](https://t.me/RaidenNetworkCommunity)). You can skip signing up for Infura on Goerli by adding `--eth-rpc-endpoint https://rpc.slock.it/goerli`. So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) becomes:
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
 ```
