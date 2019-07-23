@@ -154,25 +154,14 @@ note: The dApp user interface is very early WIP<sup>[explained more here](https:
 - [Medium Publications](https://medium.com/@raiden_network) / [Blog](https://medium.com/raiden-network)
 - [Reddit Weekly Update](https://www.reddit.com/r/raidennetwork/search?q=GIT&restrict_sr=1&sort=new)
 - [Raiden Network WebUI Demo](https://youtu.be/ASWeFdHDK-E)
-- [Raiden: Ethereum's Payment Channel Network](https://medium.com/@surferfc/raiden-ethereums-payment-channel-network-acc6e5c709b0)
-- [How to install a Raiden node on the Ethereum Mainnet](https://youtu.be/fy2ctCQHfD4)
-- [Raiden Service Bundle Explained](https://medium.com/raiden-network/raiden-service-bundle-explained-f9bd3f6f358d) - fees to Monitoring Services and Pathfinding Services paid in RDN
-
-### Talks
-
-List of presentations, podcasts, channels, etc. related to Raiden Network
-- [brainbot Technologies channel](https://youtube.com/channel/UCAfSoSy9FK5UqlSxqcsQElA/videos)
 - [Raiden youtube channel](https://youtube.com/channel/UCoUP_hnjUddEvbxmtNCcApg)
 - [How to install a Raiden node on the Ethereum Mainnet](https://youtu.be/fy2ctCQHfD4)
-- [Beyond Blockchain Hackathon: Raiden](https://youtu.be/wdz8M3RXJQs)
-- [Asseth 2019 - Paris](https://youtu.be/pN2jEgH1Nbs)
-- Send "/videos" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for 20+ more videos!
+- [Raiden Service Bundle Explained](https://medium.com/raiden-network/raiden-service-bundle-explained-f9bd3f6f358d) - fees to Monitoring Services and Pathfinding Services paid in RDN
+- Research Calls:
+  - [Layer 2 Community Call #1: Routing in state channel networks](https://youtu.be/SUxe_WJw5Yw)
+  - [State Channel Researchers Call #6](https://youtu.be/YzomDzpLW_o)
+- Send "/videos" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for more videos!
 - Send "/events" to [RaidenInfoBot](https://t.me/RaidenInfoBot) for upcoming community events!
-
-### Research Calls
-
-- [Layer 2 Community Call #1: Routing in state channel networks](https://youtu.be/SUxe_WJw5Yw)
-- [State Channel Researchers Call #6](https://youtu.be/YzomDzpLW_o)
 
 ### Pulse
 
