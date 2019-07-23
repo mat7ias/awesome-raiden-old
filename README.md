@@ -57,6 +57,7 @@
 
 ### Tools
 
+- [EthArmbian](http://ethraspbian.com/) - turns NanoPC-T4 ARM SoC or RockPro64 into a full Ethereum node. Includes other components of the Ethereum ecosystem such as Raiden Network([version check](https://github.com/diglos/userpatches#ethereum-framework)), Trinity, Status.im, IPFS, Swarm and Vipnode. Initial support for Eth2.0 clients.
 - [Raiden Burner](https://github.com/johngrantuk/raidenburner), ([demo](https://youtu.be/Pn0gsljGalo)) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
 - [Grid Ethereum Plugin](https://github.com/PhilippLgh/ethereum-grid-tutorials/blob/cfb3b205374a34550e43cdbdbb4ec7e90a2d4bf4/Raiden.md) - the functionality with a plugin and a Web UI
 - [Raiden Ticker](https://github.com/pisuthd/raiden-ticker) - integrate Raiden's payment channel with IoT devices
