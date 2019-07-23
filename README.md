@@ -21,7 +21,6 @@
   - [Community Channels](#community-channels)
 - [⚡ Raiden Trust](#-raiden-trust)
 - [⚡ MicroRaiden](#-microraiden)
-  - [MicroTalks](#microtalks)
 - [⚡ Other Resources](#-other-resources)
 
 # ⚡ Raiden Network
@@ -214,11 +213,6 @@ List of presentations, podcasts, channels, etc. related to Raiden Network
 - Announcement [Introducing Raiden Trust](https://medium.com/raiden-network/introducing-the-raiden-trust-cd47db60146)
 - [Apply now](https://medium.com/raiden-network/apply-now-for-a-raiden-trust-grant-aca7d3e1e908) for the first wave of Raiden Trust grants
 
-## ⚡ Other Resources
-
-Resources indirectly related to Raiden Network
-- [dxDAO Vote Staking Interface](https://dxdao.daostack.io) - lock RDN tokens to earn voting power for the [@dxDAO](https://twitter.com/_dx_dao). Staking period has finished.
-
 ## ⚡ MicroRaiden
 
 - [MicroRaiden Website](https://micro.raiden.network/)
@@ -232,8 +226,13 @@ Resources indirectly related to Raiden Network
 - [Berlin Meetup drone demo](https://youtube.com/watch?v=E6CIgJPxgpQ)
 - [ScalingNOW!](https://youtu.be/81gK-5qLFeg)
 
-### MRapps
+### MicroRApps
 
 - [AppStoreFoundation](https://hackernoon.com/anu-2-app-store-foundation-and-dev-status-a3de6d144e5f), [Github](https://github.com/AppStoreFoundation/asf-sdk) - sell in-app items for AppCoins
 - [SmartMesh/SmartRaiden](https://smartmesh.io/) - internet-free digital payments and transactions
 - [RightMesh](https://www.rightmesh.io/) - ad hoc mobile mesh networking platform and protocol
+
+## ⚡ Other Resources
+
+Resources indirectly related to Raiden Network
+- [dxDAO Vote Staking Interface](https://dxdao.daostack.io) - lock RDN tokens to earn voting power for the [@dxDAO](https://twitter.com/_dx_dao). Staking period has finished.
