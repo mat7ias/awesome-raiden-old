@@ -155,6 +155,10 @@ note: The dApp user interface is very early WIP<sup>[explained more here](https:
 The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
 - [Join the Gitcoin hackathon discord channel](https://discord.gg/jzmb2y)
 - [Raiden specific hackathon repo](https://github.com/raiden-network/hackathons/issues)
+- Bounties:
+  - [Build A Raiden Library In Your Favorite Programming Language](https://gitcoin.co/issue/raiden-network/hackathons/4/3284)
+  - [Build The Raiden UI 2.0!](https://gitcoin.co/issue/raiden-network/hackathons/5/3285)
+  - [BWYL (Build Whatever You Like!) / Open Bounty: Raiden + X = 🔥](https://gitcoin.co/issue/raiden-network/hackathons/6/3286)
 - Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
 
 ## ⚡ Learning Resources
