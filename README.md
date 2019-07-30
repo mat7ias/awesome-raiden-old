@@ -164,7 +164,7 @@ The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 2
 Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's some resources from the previous hack:
 - Winners: [Golang client library](https://github.com/cpurta/go-raiden-client) and [Raiden Ticker](https://github.com/pisuthd/raiden-ticker)
 - Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
-- Unfinished idea: [Zerynth](http://www.zerynth.com/) to be able to use Raiden payment channels directly on microcontrollers using the current Raiden implementation. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
+- Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
 
 ## ⚡ Learning Resources
 
