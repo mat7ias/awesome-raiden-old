@@ -13,6 +13,7 @@
   - [Starting a Raiden Full Node](#starting-a-raiden-full-node)
   - [Connectivity](#connectivity)
   - [dApp Testing](#dapp-testing)
+  - [Hackathon](#hackathon)
 - [⚡ Learning Resources](#-learning-resources)
   - [Talks](#talks)
   - [Research Calls](#research-calls)
@@ -149,6 +150,13 @@ Resources for trying the WIP Raiden dApp in your browser. The Light Client works
 
 note: The dApp user interface is very early WIP<sup>[explained more here](https://t.me/RaidenNetworkCommunity/28310)</sup>, the first milestone will enable sending tokens and not receiving them. If you're interested to get the full experience of Raiden you will want to run a full Raiden node and use the WebUI to get a good experience.
 
+### Hackathon
+
+The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
+- [Join the Gitcoin hackathon discord channel](https://discord.gg/jzmb2y)
+- [Raiden specific hackathon repo](https://github.com/raiden-network/hackathons/issues)
+- Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
+
 ## ⚡ Learning Resources
 
 - [Raiden FAQ](https://raiden.network/faq.html)
@@ -226,3 +234,4 @@ note: The dApp user interface is very early WIP<sup>[explained more here](https:
 
 Resources indirectly related to Raiden Network
 - [dxDAO Vote Staking Interface](https://dxdao.daostack.io) - lock RDN tokens to earn voting power for the [@dxDAO](https://twitter.com/_dx_dao). Staking period has finished.
+- [dxDAO Alchemy](https://alchemy.daostack.io/dao/0x519b70055af55a007110b4ff99b0ea33071c720a)
