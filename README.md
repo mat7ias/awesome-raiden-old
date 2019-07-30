@@ -160,6 +160,8 @@ The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 2
   - [Build The Raiden UI 2.0!](https://gitcoin.co/issue/raiden-network/hackathons/5/3285)
   - [BWYL (Build Whatever You Like!) / Open Bounty: Raiden + X = 🔥](https://gitcoin.co/issue/raiden-network/hackathons/6/3286)
 - Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
+![https://twitter.com/raiden_network/status/1156121197660319744](https://user-images.githubusercontent.com/35585644/62123517-70cce880-b30b-11e9-9a36-fa16ef362b32.jpeg)
+
 
 ## ⚡ Learning Resources
 
