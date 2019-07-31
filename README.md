@@ -12,12 +12,12 @@
     - [ERC20 Faucets](#erc20-faucets)
   - [Starting a Raiden Full Node](#starting-a-raiden-full-node)
   - [Connectivity](#connectivity)
-  - [dApp Testing](#dapp-testing)
   - [Hackathon](#hackathon)
 - [⚡ Learning Resources](#-learning-resources)
   - [Talks](#talks)
   - [Research Calls](#research-calls)
   - [Pulse](#pulse)
+  - [dApp Testing](#dapp-testing)
 - [⚡ Community](#-community)
   - [Community Channels](#community-channels)
 - [⚡ Raiden Trust](#-raiden-trust)
@@ -138,18 +138,6 @@ Want to find some Raiden nodes online already to connect to? Here's a few :)
 
 🏃Need multiple accounts of your own to test with?! Use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list` (alternatively, if you don't have Geth, rerun the [Workshop onboarder](https://github.com/raiden-network/workshop/#on-boarding)). You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. For example `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001.
 
-### dApp Testing
-
-Resources for trying the WIP Raiden dApp in your browser. The Light Client works on Ropsten/Rinkeby/Goerli/Kovan, here we'll use Ropsten.
-1. Make sure you have MetaMask installed and connected to Ropsten Test Network
-![ropsten](https://user-images.githubusercontent.com/35585644/61182722-b5edeb00-a67a-11e9-9930-bfa4db704244.png).
-2. Get testnet Ether on [Ropsten](https://faucet.ropsten.be/) (going off-chain with Raiden requires on-chain interactions, i.e. Gas).
-3. Wrap Ether using the [0x Portal](https://0x.org/portal/weth). MetaMask might not show the correct wrapped Ether on testnet after you've wrapped it. If so, click on MetaMask and add Custom Token 0xc778417e063141139fce010982780140aa0cd5ab
-![addweth](https://user-images.githubusercontent.com/35585644/61182725-c43c0700-a67a-11e9-9ca5-19cb67341cf5.png)
-4. Start the Raiden dApp [here](http://lightclient.raiden.network). You can now use the dApp to open, close and settle channels.
-
-note: The dApp user interface is very early WIP<sup>[explained more here](https://t.me/RaidenNetworkCommunity/28310)</sup>, the first milestone will enable sending tokens and not receiving them. If you're interested to get the full experience of Raiden you will want to run a full Raiden node and use the WebUI to get a good experience.
-
 ### Hackathon
 
 The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
@@ -190,6 +178,18 @@ Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's
 - [Raiden Pulse #3:](https://medium.com/raiden-network/raiden-pulse-3-news-from-november-and-december-dd0da04961d3) News from November and December
 - [Raiden Pulse #2:](https://medium.com/raiden-network/raiden-pulse-2-news-from-september-and-october-6a6c6be8ad67) News from September and October
 - [Raiden Pulse #1:](https://medium.com/raiden-network/raiden-pulse-1-news-from-july-and-august-423fae4e9d3e) News from July and August
+
+### dApp Testing
+
+Resources for trying the WIP Raiden dApp in your browser. The Light Client works on Ropsten/Rinkeby/Goerli/Kovan, here we'll use Ropsten.
+1. Make sure you have MetaMask installed and connected to Ropsten Test Network
+![ropsten](https://user-images.githubusercontent.com/35585644/61182722-b5edeb00-a67a-11e9-9930-bfa4db704244.png).
+2. Get testnet Ether on [Ropsten](https://faucet.ropsten.be/) (going off-chain with Raiden requires on-chain interactions, i.e. Gas).
+3. Wrap Ether using the [0x Portal](https://0x.org/portal/weth). MetaMask might not show the correct wrapped Ether on testnet after you've wrapped it. If so, click on MetaMask and add Custom Token 0xc778417e063141139fce010982780140aa0cd5ab
+![addweth](https://user-images.githubusercontent.com/35585644/61182725-c43c0700-a67a-11e9-9ca5-19cb67341cf5.png)
+4. Start the Raiden dApp [here](http://lightclient.raiden.network). You can now use the dApp to open, close and settle channels.
+
+note: The dApp user interface is very early WIP<sup>[explained more here](https://t.me/RaidenNetworkCommunity/28310)</sup>, the first milestone will enable sending tokens and not receiving them. If you're interested to get the full experience of Raiden you will want to run a full Raiden node and use the WebUI to get a good experience.
 
 ## ⚡ Community
 
