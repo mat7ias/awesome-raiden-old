@@ -6,7 +6,7 @@
   - [Specifications](#specifications)
   - [Explorers](#explorers)
 - [⚡ Developer Resources](#-developer-resources)
-  - [Tools](#tools)
+  - [Tools](#%EF%B8%8F-tools)
   - [RApps](#rapps)
   - [Ether Faucets](#ether-faucets)
     - [ERC20 Faucets](#erc20-faucets)
@@ -57,7 +57,7 @@
 
 <sub><sup>Note: The following sections include WIP and demo projects.</sup></sub>
 
-### Tools
+### 🏗️ Tools
 
 - [EthArmbian](http://ethraspbian.com/) - turns NanoPC-T4 or RockPro64 into a full Ethereum node. Includes components of the Ethereum ecosystem such as Raiden Network([version check](https://github.com/diglos/userpatches#ethereum-framework)), Trinity, Status.im, IPFS, Swarm and Vipnode. Initial support for Eth2.0 clients.
 - [Raiden Burner](https://github.com/johngrantuk/raidenburner), [demo](https://youtu.be/Pn0gsljGalo) - add an easy to use Raiden payment option to the [Burner Wallet](https://github.com/austintgriffith/burner-wallet)
