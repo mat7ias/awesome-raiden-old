@@ -10,9 +10,11 @@
   - [RApps](#rapps)
   - [Ether Faucets](#ether-faucets)
     - [ERC20 Faucets](#erc20-faucets)
-  - [Starting a Raiden Full Node](#starting-a-raiden-full-node)
+    - [Hackathon](#hackathon)
+- [Starting a Raiden Full Node](#starting-a-raiden-full-node)
+  - [Testnet](#mainnet)
+  - [Mainnet](#mainnet)
   - [Connectivity](#connectivity)
-  - [Hackathon](#hackathon)
 - [⚡ Learning Resources](#-learning-resources)
   - [Talks](#talks)
   - [Research Calls](#research-calls)
@@ -109,16 +111,40 @@ Or if you have MetaMask installed then try the [MetaMask faucets](https://faucet
 - [Kovan](https://kovan.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
 - [Goerli](https://goerli.etherscan.io/address/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c#code): 0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c
 
-### Starting a Raiden Full Node
+### Hackathon
 
-[System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html)
-🏃Need to try a Raiden node quick on testnet?! Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, the first 1min of [this community video](https://youtu.be/RpaAS64dI6k) shows the added steps with using WSL ([if you get stuck](https://t.me/RaidenNetworkCommunity)). You can skip signing up for Infura on Goerli by adding `--eth-rpc-endpoint https://rpc.slock.it/goerli`. So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) becomes:
+The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
+- [Join the Gitcoin hackathon discord channel](https://discord.gg/jzmb2y)
+- [Raiden specific hackathon repo](https://github.com/raiden-network/hackathons/issues)
+- RECOMMENDED to use [v0.100.3](https://github.com/raiden-network/raiden/releases/tag/v0.100.3) of Raiden Network for hacking!
+- Bounties:
+  - [Build A Raiden Library In Your Favorite Programming Language](https://gitcoin.co/issue/raiden-network/hackathons/4/3284)
+  - [Build The Raiden UI 2.0!](https://gitcoin.co/issue/raiden-network/hackathons/5/3285)
+  - [BWYL (Build Whatever You Like!) / Open Bounty: Raiden + X = 🔥](https://gitcoin.co/issue/raiden-network/hackathons/6/3286)
+[![RaidenHack](https://user-images.githubusercontent.com/35585644/62123517-70cce880-b30b-11e9-9a36-fa16ef362b32.jpeg)](https://twitter.com/raiden_network/status/1156121197660319744)
+
+Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's some resources from the previous hack:
+- Winners: [Golang client library](https://github.com/cpurta/go-raiden-client) and [Raiden Ticker](https://github.com/pisuthd/raiden-ticker)
+- Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
+- Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
+
+## Starting a Raiden Full Node
+
+[System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). You should usually try new things on Ethereum on testnet before mainnet so you can get a hang of it, this includes trying Raiden Network.
+
+### Testnet
+
+🏃Need to try a Raiden node quick on testnet?! Option 1: Use [Raiden Wizard](https://medium.com/raiden-network/introducing-the-raiden-wizard-6c7c61c5b695) to get a testnet node started in just a couple of minutes.
+
+Option 2: follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, [this community video](https://youtu.be/RpaAS64dI6k) includes the added steps with using WSL (if you get stuck, ask [the community!](https://t.me/RaidenNetworkCommunity)). You can skip signing up for Infura on Goerli by adding `--eth-rpc-endpoint https://rpc.slock.it/goerli`. So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) becomes:
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --network-id goerli --gas-price fast --environment-type development --eth-rpc-endpoint https://rpc.slock.it/goerli
 ```
 Your node is now running on Goerli testnet. Open your web browser and put `127.0.0.1:5001` to open the WebUI.
 
-🏃Need to try Raiden quick on mainnet?! If you've already completed the workshop steps, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
+### Mainnet
+
+🏃Need to try Raiden quick on mainnet?! If you've already completed the workshop steps above, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
 - Now, view your project and you'll find the Project ID under the __KEYS__ section.
@@ -137,23 +163,6 @@ Want to find some Raiden nodes online already to connect to? Here's a few :)
 - Goerli: [1](https://goerli.etherscan.io/address/0xef0BCf6BBE8E67DEcc1F395CA67922663529F4F4), [2](https://goerli.etherscan.io/address/0xD4945bC6D538709B3431A84c4bEf24be341FbacB), [3](https://goerli.etherscan.io/address/0x2cCEfE5eCEc08A8de5bA96A064d789C0ABa50558), [4](https://goerli.etherscan.io/address/0x83c761f7ABa11A840c59d461921504603d8fc6e8) (connected 1<->4 on the [XEENUS token network](https://goerli.explorer.raiden.network/tokens/0x022E292b44B5a146F2e8ee36Ff44D3dd863C915c/), if you want to try multi-hop payments quickly)
 
 🏃Need multiple accounts of your own to test with?! Use [Geth](https://github.com/ethereum/go-ethereum/wiki/Installing-Geth) `geth account new` to create them quickly. They will be stored in `~/.ethereum/keystore/`. List them with `geth account list` (alternatively, if you don't have Geth, rerun the [Workshop onboarder](https://github.com/raiden-network/workshop/#on-boarding)). You can open as many nodes as you want on your local machine by giving different port numbers when starting Raiden. For example `--api-address http://127.0.0.1:5002` starts a Raiden node on port 5002 instead of the default 5001.
-
-### Hackathon
-
-The [GROW ETHEREUM](https://gitcoin.co/hackathon/grow-ethereum) hackathon. Jul 29, 2019 - Aug 15, 2019. A three-week virtual hackathon where global developers and entrepreneurs will collaborate to push blockchain applications to new frontiers of business + technology + social change.
-- [Join the Gitcoin hackathon discord channel](https://discord.gg/jzmb2y)
-- [Raiden specific hackathon repo](https://github.com/raiden-network/hackathons/issues)
-- RECOMMENDED to use [v0.100.3](https://github.com/raiden-network/raiden/releases/tag/v0.100.3) of Raiden Network for hacking!
-- Bounties:
-  - [Build A Raiden Library In Your Favorite Programming Language](https://gitcoin.co/issue/raiden-network/hackathons/4/3284)
-  - [Build The Raiden UI 2.0!](https://gitcoin.co/issue/raiden-network/hackathons/5/3285)
-  - [BWYL (Build Whatever You Like!) / Open Bounty: Raiden + X = 🔥](https://gitcoin.co/issue/raiden-network/hackathons/6/3286)
-[![RaidenHack](https://user-images.githubusercontent.com/35585644/62123517-70cce880-b30b-11e9-9a36-fa16ef362b32.jpeg)](https://twitter.com/raiden_network/status/1156121197660319744)
-
-Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's some resources from the previous hack:
-- Winners: [Golang client library](https://github.com/cpurta/go-raiden-client) and [Raiden Ticker](https://github.com/pisuthd/raiden-ticker)
-- Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
-- Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
 
 ## ⚡ Learning Resources
 
