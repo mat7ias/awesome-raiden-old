@@ -128,7 +128,7 @@ Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's
 - Video: ["Beyond Blockchain Hackathon: Raiden"](https://youtu.be/wdz8M3RXJQs)
 - Unfinished idea: Integrate Raiden support into Zerynth. [Idea TL;DR here](https://github.com/raiden-network/hackathons/issues/2#issuecomment-509925857)
 
-## Starting a Raiden Full Node
+## ⚡ Starting a Raiden Full Node
 
 [System Requirements and Installation Guide](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html). You should usually try new things on Ethereum on testnet before mainnet so you can get a hang of it, this includes trying Raiden Network.
 
