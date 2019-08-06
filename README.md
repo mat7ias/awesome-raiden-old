@@ -144,7 +144,7 @@ Your node is now running on Goerli testnet. Open your web browser and put `127.0
 
 ### Mainnet
 
-🏃Need to try Raiden quick on mainnet?! If you've already completed the workshop steps above, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
+Follow the [Raiden Red Eyes Mainnet Tutorial](https://raiden-network.readthedocs.io/en/latest/red_eyes_mainnet_tutorial.html). 🏃Need to try Raiden quick on mainnet?! If you've already completed the workshop steps above, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
 - Now, view your project and you'll find the Project ID under the __KEYS__ section.
