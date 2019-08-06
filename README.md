@@ -134,7 +134,7 @@ Need ideas?! Check out [RApps](#rapps) and [Tools](#tools). Additionally, here's
 
 ### Testnet
 
-🏃Need to try a Raiden node quick on testnet?! Option 1 (fastest): Use [Raiden Wizard](https://medium.com/raiden-network/introducing-the-raiden-wizard-6c7c61c5b695) to get a testnet node started in just a couple of minutes.
+🏃Need to try a Raiden node quick on testnet?! Option 1: Use [Raiden Wizard](https://medium.com/raiden-network/introducing-the-raiden-wizard-6c7c61c5b695) to get a testnet node started in just a couple of minutes.
 
 Option 2: Follow the [workshop](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs). If you happen to be on Windows, [this community video](https://youtu.be/RpaAS64dI6k) includes the added steps with using WSL ([if you get stuck](https://t.me/RaidenNetworkCommunity)). You can skip signing up for Infura on Goerli by adding `--eth-rpc-endpoint https://rpc.slock.it/goerli`. So replacement node start command (from [this](https://github.com/raiden-network/workshop/tree/tu-berlin-blockchain-labs#running-raiden)) becomes:
 ```
