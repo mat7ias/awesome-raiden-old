@@ -147,7 +147,7 @@ Your node is now running on Goerli testnet. Open your web browser and put `127.0
 Follow the [Raiden Red Eyes Mainnet Tutorial](https://raiden-network.readthedocs.io/en/latest/red_eyes_mainnet_tutorial.html). 🏃Need to try Raiden quick on mainnet?! If you've already completed the workshop steps above, Infura will work great! You can always switch to using your own Eth Node later on. To get an Infura key you'll need to:
 - Visit [infura.io](https://infura.io/) and click to sign up for a new account.
 - Then, choose to create a new project.
-- Now, view your project and you'll find the Project ID under the __KEYS__ section.
+- Now, view your project and you'll find the Project ID under the __KEYS__ section ("<MAINNET_INFURA_KEY>" used below).
 - Start your node with:
 ```
 ./raiden-v0.100.3-linux-x86_64 --keystore-path keystore --eth-rpc-endpoint eth-rpc-endpoint https://mainnet.infura.io/v3/<MAINNET_INFURA_KEY>
