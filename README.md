@@ -11,7 +11,7 @@
   - [Ether Faucets](#ether-faucets)
     - [ERC20 Faucets](#erc20-faucets)
     - [Hackathon](#hackathon)
-- [Starting a Raiden Full Node](#starting-a-raiden-full-node)
+- [⚡ Starting a Raiden Full Node](#starting-a-raiden-full-node)
   - [Testnet](#mainnet)
   - [Mainnet](#mainnet)
   - [Connectivity](#connectivity)
